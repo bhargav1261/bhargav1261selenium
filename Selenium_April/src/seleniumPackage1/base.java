@@ -10,7 +10,7 @@ public class base {
 		WebDriver driver;
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Bhargav\\Desktop\\chromedriver_win32\\chromedriver.exe");
 	    driver =new ChromeDriver();
-	    driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+	    driver.get("http://automationpractice.com/index.php");
 	    driver.manage().window().maximize();
 	}
 	
